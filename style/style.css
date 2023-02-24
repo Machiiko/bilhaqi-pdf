@@ -11,6 +11,20 @@ body{
     text-align: center;
 }
 
+.download-button a{
+    color: white;
+}
+
+.download-button a:after{
+    color: white;
+}
+
+.download-button a:hover{
+    color: black;
+}
+
+
+
 /* container */
 .container-fluid{
     padding: 7% 15%;
@@ -86,6 +100,7 @@ p{
 .download-button{
     margin: 5% 3% 5% 0;
     border-color: #A173D1;
+    
 }
 
 /* title image */
@@ -228,6 +243,13 @@ margin: 20px 20px 50px;
     
 
 }
+
+a{
+    text-decoration: none;
+    
+}
+
+
 
 
 
@@ -553,6 +575,11 @@ a{
 
 .button-center{
     text-align: center;
+}
+
+#footer .container-fluid{
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 

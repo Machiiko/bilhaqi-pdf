@@ -337,7 +337,7 @@ margin: 20px 20px 50px;
     .title-image{
         width: 100%;
         position: absolute;
-        top: 68%;
+        top: 70%;
         left: 0%;
     }
 }
@@ -371,12 +371,12 @@ margin: 20px 20px 50px;
 }
 
 @media (max-width:378px){
-    /* .title-image{
+    .title-image{
         width: 100%;
         position: absolute;
-        top: 81%;
+        top: 87%;
         left: 0%;
-    } */
+    }
 
     
 }

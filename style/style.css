@@ -333,14 +333,14 @@ margin: 20px 20px 50px;
    
 }
 
-@media(max-width:395px){
+/* @media(max-width:395px){
     .title-image{
         width: 100%;
         position: absolute;
         top: 77%;
         left: 0%;
     }
-}
+} */
 
 @media(max-width:400px){
     /* .title-image{

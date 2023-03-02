@@ -11,6 +11,20 @@ body{
     text-align: center;
 }
 
+.link-button{
+    color: black;
+    text-decoration: none;
+}
+
+.link-button:hover{
+    color: black;
+}
+
+.link-button::after{
+    color: black;
+}
+
+
 .download-button a{
     color: white;
 }

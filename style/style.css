@@ -428,6 +428,17 @@ a{
 
 }
 
+@media (max-width:376px){
+    .title-image{
+        width: 100%;
+        position: absolute;
+        top: 91%;
+        left: 0%;
+    }
+     
+    }
+}
+
 @media (max-width:378px){
     .title-image{
         width: 100%;

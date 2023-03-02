@@ -251,17 +251,52 @@ a{
 
 
 
-
+@media(min-width:451px){
+    .title-image{
+        position: absolute;
+        width: 100%;
+        left: 0%;
+        top: 78%;
+    }
+}
 
 @media(min-width:1000px){
+
+    #title .container-fluid{
+        padding-bottom: 20%;
+    }
+    
+    .title-image{
+        width: 60%;
+       position:absolute;
+       top:42%;
+       left: 40%;
+    }
+}
+
+@media(max-width:998px){
+    #title .container-fluid{
+        padding-bottom: 100%;
+    }
+}
+
+@media(min-width:1030px){
+    #title .container-fluid{
+        padding: 3% 10% 18%;
+    }
     .title-image{
         width: 55%;
         position: absolute;
-        top: 30%;
-        left: 0%;
+        top: 45%;
+        left: 45%;
     }
 }
 @media (min-width: 1200px){
+    .title-image{
+        position: absolute;
+        left:45%;
+        top:35%;
+    }
     .exp-head{
         margin-left: 115px;
     }
@@ -272,6 +307,7 @@ a{
 @media (min-width: 1300px) {
     .title-image{
         left: 45%;
+        top: 27%;
         
     }
 }
@@ -279,6 +315,7 @@ a{
 @media(min-width: 1450px){
     .title-image{
         left: 45%;
+        top:15%;
     }
 }
 
@@ -312,20 +349,19 @@ a{
     margin-left: 0px;
 }
 
-#title .container-fluid{
-    padding-bottom: 100%;
-}
+
 
 
 
 }
+
 
 
 @media (max-width: 450px){
     
         .exp-img{
             position: relative;
-            right: 35px;
+            right: 10%;
             margin-bottom: 50px;
         
     }
@@ -374,9 +410,10 @@ a{
 }
 
 @media (max-width: 330px){
-    .exp-img{
-        right: 60px;
-    }
+.exp-img{
+   
+    left: -24%;
+}
     .title-image{
         width: 100%;
         position: absolute;
@@ -385,10 +422,9 @@ a{
     }
 }
 
+
 @media (min-width: 360px){
-    .exp-img{
-    right: 40px;
-    }
+    
 
 }
 
@@ -396,12 +432,17 @@ a{
     .title-image{
         width: 100%;
         position: absolute;
-        top: 91%;
+        top: 78%;
         left: 0%;
     }
+    .exp-img{
+        right: 12%;
+    }
+    
 
     
 }
+
 
 
 
@@ -410,7 +451,7 @@ a{
     .title-image{
         width: 100%;
         position: absolute;
-        top: 125%;
+        top: 115%;
         left: 0%;
     }
 
